@@ -1,0 +1,74 @@
+.home{
+    margin-top: 5%;
+    background: url(../images/home-bg.jpg) no-repeat scroll  center center;
+    background-size: cover;
+    position: relative;
+    width:100%;
+}
+.form{
+    position: relative;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    margin-top: -200px;
+}
+.signup{
+    border:  1px solid;
+    border-radius: 15px;
+    background-color: rgb(237, 233, 233);
+    height: 800px;
+    width: 600px;
+    box-shadow: 5px 5px  #333333;
+}  
+.addcar{
+    border:  1px solid;
+    border-radius: 15px;
+    background-color: rgb(237, 233, 233);
+    height: 600px;
+    width: 600px;
+    box-shadow: 5px 5px  #333333;
+} 
+.login{
+    border:  1px solid;
+    border-radius: 15px;
+    background-color: rgb(237, 233, 233);
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 5px  #333333;
+}  
+.input{
+    margin: 20px 0px 0px 20px;
+}
+.box, .signupbtn {
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 24;
+}
+
+.signupbtn{
+    background-color: rgb(55, 199, 55);
+    color: black;
+    font-size: 20px;
+}
+.submitBtn{
+    margin: 20px 0px 0px 30px;
+    padding: 15px;
+    width: 90%;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+@media only screen and (max-width:1200px){
+    .signup{
+       width: 100%;
+    }
+    .login{
+        width: 100%;
+     }
+     .addcar{
+        width: 100%;
+     }
+}
